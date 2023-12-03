@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+  <title>Ricerca Annunci</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" alt="Logo" class="logo">
+        <div class="elements">
+        <i class="far fa-bookmark" id="item"></i>
+        <i class="far fa-bell" id="item"></i>
+        <i class="far fa-user" id="item"></i></div>
+      </div>
+ <div class="content">
+  <label for="jobTitle">Titolo Lavorativo:</label>
+  <input type="text" id="jobTitle" placeholder="Inserisci il titolo lavorativo">
+
+  <label for="jobLocation">Posizione Geografica:</label>
+  <input type="text" id="jobLocation" placeholder="Inserisci la posizione geografica">
+
+  <button onclick="searchAndDisplayResults()">Cerca</button>
+
+  <ul id="resultsList"></ul></div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
